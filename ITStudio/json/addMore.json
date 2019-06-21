@@ -1,0 +1,39 @@
+{
+  "msg":"success",
+  "article": [
+    {
+      "articleId": 13,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 14,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    }
+  ]
+
+}

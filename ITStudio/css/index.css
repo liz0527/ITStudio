@@ -1,0 +1,377 @@
+.wrap-left {
+    display: inline-block;
+    width: 937px;
+}
+
+.wrap-right {
+    display: inline-block;
+    width: 397px;
+    margin-left: 21px;
+}
+
+.carousel-chart {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 527px;
+    box-shadow: 0px 2px 8px 2px rgba(60,60,60,0.42);
+    overflow: hidden;
+}
+
+.short-news {
+    display: inline-block;
+    width: 100%;
+    /*background: rgba(255,255,255,1);*/
+    box-shadow: 0px 2px 7px 1px rgba(60,60,60,0.2);
+}
+
+.articles {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.gossip {
+    width: 100%;
+    /*background:rgba(255,255,255,1);*/
+    box-shadow:0px 2px 7px 1px rgba(60,60,60,0.2);
+    margin-top: 33px;
+}
+
+.wrap-list {
+    width: 335px;
+    margin: 0 auto;
+    padding: 1px 0;
+}
+
+/*
+ * 短趣
+ */
+.short-item {
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(202,202,202,1);;
+}
+
+.short-item:last-child {
+    border-bottom: none;
+}
+
+.short-item h1 {
+    line-height: 25px;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.short-item h1:hover {
+    color:rgba(245,57,86,1);
+    cursor: pointer;
+}
+
+.short-item img {
+    display: inline-block;
+    width:30px;
+    height:30px;
+    background:rgba(65,65,65,1);
+    border-radius:50%;
+    margin: 10px 10px 10px 0;
+    vertical-align: middle;
+}
+
+.short-item span {
+    display: inline-block;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(146,146,146,1);
+    margin: 10px 20px 10px 5px;
+    vertical-align: middle;
+}
+
+.short-item p {
+    font-size:20px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/*
+ * 传言
+ */
+.gossip-item {
+    position: relative;
+    width: 100%;
+    height:188px;
+    margin: 30px 0;
+}
+
+.gossip-item h1 {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    margin: 10px 20px 10px 15px;
+    font-size:20px;
+    line-height: 40px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.gossip-item span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius:18px;
+    font-size:20px;
+    padding: 3px 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+/*
+ * 文章
+ */
+.article-item {
+    width: 100%;
+    height:202px;
+    /*background:rgba(255,255,255,1);*/
+    box-shadow:0px 2px 9px 1px rgba(60,60,60,0.2);
+    margin-bottom: 28px;
+}
+
+.article-item:hover {
+    border: 10px solid #ffffff;
+    margin: -10px 0 18px -10px;
+    cursor: pointer;
+}
+
+.article-item img {
+    display: inline-block;
+    width:365px;
+    height:202px;
+}
+
+.article-info {
+    position: relative;
+    display: inline-block;
+    width: 503px;
+    height:138px;
+    padding: 32px;
+}
+
+.article-info h1 {
+    display: inline-block;
+    font-size:28px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin: 0 10px 0 0;
+    padding-left: 45px;
+    background-size: 25px 25px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.article-info h1:hover {
+    cursor: pointer;
+}
+
+.article-info button {
+    display: inline-block;
+    float: right;
+    padding: 5px 7px;
+    background-size: 100% 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.article-info span {
+    /*position: absolute;*/
+    /*right: 100px;*/
+    /*top: 10px;*/
+    display: inline-block;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(146,146,146,1);
+    margin: 10px 0px 10px 45px;
+    vertical-align: middle;
+}
+
+.article-info p {
+    font-size:20px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+
+/*
+ * 轮播图
+ */
+.carousel-chart button {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom: 29px;
+    width:22px;
+    height:22px;
+    border:4px solid rgba(244,244,244,1);
+    background: rgba(255,255,255,0);
+    opacity:0.5;
+    border-radius:50%;
+}
+
+.carousel-chart li {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-chart li img {
+    width: 100%;
+    height: 100%;
+    z-index: +1;
+}
+
+.carousel-chart li span {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow:0px -80px 100px 0px rgba(60,60,60,0.42) inset;
+    z-index: +2;
+}
+
+.carousel-chart li h1 {
+    position: absolute;
+    bottom: 29px;
+    left: 36px;
+    font-size:28px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    z-index: +3;
+}
+
+.carousel-hover {
+    background:rgba(244,244,244,1)!important;
+}
+
+@media screen and (max-width: 1900px) {
+
+    .wrap-left {
+        width: 656px;
+    }
+
+    .wrap-right {
+        width:278px;
+    }
+
+    .carousel-chart {
+        height:369px;
+    }
+
+    .wrap-list {
+        width: 235px;
+    }
+
+    .short-item {
+        padding: 21px 0;
+    }
+
+    .short-item h1 {
+        line-height: 21px;
+        font-size:15px;
+    }
+
+    .short-item img {
+        width:21px;
+        height:21px;
+    }
+
+    .short-item span {
+        font-size:15px;
+    }
+
+    .short-item p {
+        font-size: 15px;
+    }
+
+    .gossip-item {
+        height:132px;
+        margin: 21px 0;
+    }
+
+    .gossip-item h1 {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 20px 10px 10px;
+    }
+
+    .gossip-item span {
+        bottom: 7px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .article-item {
+        height:141px;
+    }
+
+    .article-item img {
+        width:256px;
+        height:141px;
+    }
+
+    .article-info {
+        width: 349px;
+        height:95px;
+        padding: 22px;
+    }
+
+    .article-info h1 {
+        font-size:20px;
+        padding-left: 35px;
+        background-size: 18px 18px;
+    }
+
+    .article-info span {
+        font-size:15px;
+        margin: 7px 5px 7px 25px;
+    }
+
+    .article-info p {
+        font-size: 15px;
+    }
+
+    .article-info button {
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+    }
+
+    .carousel-chart button {
+        bottom: 21px;
+        width:16px;
+        height:16px;
+        border:3px solid rgba(244,244,244,1);
+    }
+
+    .carousel-chart li h1 {
+        bottom: 21px;
+        left: 25px;
+        font-size:20px;
+    }
+}

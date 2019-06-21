@@ -1,0 +1,363 @@
+.content {
+    width: 1055px;
+    margin: 0 auto;
+}
+
+.content-article {
+    width: 985px;
+    margin: 0 auto;
+}
+
+.content-article h1 {
+    margin: 57px 0 39px 0;
+    font-size:36px;
+    color:rgba(51,51,51,1);
+    text-shadow:0px 2px 5px rgba(60,60,60,0.2);
+}
+
+.content-article img {
+    display: inline-block;
+    background:rgba(65,65,65,1);
+    vertical-align: middle;
+    height: auto!important;
+    margin-bottom: 20px;
+}
+
+.author-icon {
+    display: inline-block;
+    width:30px!important;
+    height:30px!important;
+    background:rgba(65,65,65,1);
+    border-radius:50%!important;
+    vertical-align: middle;
+}
+
+.content-article h5 {
+    display: inline-block;
+    margin: 0 65px 0 21px;
+    font-size:18px;
+    color:rgba(51,51,51,1);
+}
+
+.content-article span {
+    font-size:18px;
+    color:rgba(119,119,119,1);
+}
+
+.content-article p {
+    margin: 38px 0 40px 0;
+    font-size:18px;
+    color:rgba(119,119,119,1);
+}
+
+.content-text {
+    width: 100%;
+}
+
+.content-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+.content-text p {
+    font-size:20px;
+    color:rgba(51,51,51,1);
+    line-height:36px;
+    margin-top: 50px;
+}
+
+.content-comment {
+    margin: 60px 0 67px 0;
+    width:100%;
+    box-shadow:0px 2px 7px 1px rgba(60,60,60,0.2);
+}
+
+.comment-title {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.comment-title span {
+    display: inline-block;
+    background: url("../images/title-icon.png") no-repeat left center;
+    background-size: 20px 28px;
+    vertical-align: bottom;
+    font-size:28px;
+    font-weight:400;
+    color:rgba(245,57,86,1);
+    text-shadow:0px 2px 4px rgba(60,60,60,0.42);
+    padding-left: 35px;
+}
+
+.comment-edit {
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+#commentInput {
+    width:848px;
+    height:112px;
+    border:2px solid rgba(176,176,176,0.39);
+    margin-left: 34px;
+    padding-left: 5px;
+}
+
+#commentBtn {
+    margin-left: 12px;
+    width:124px;
+    height:116px;
+    background:rgba(246,55,86,1);
+    font-size:20px;
+    color:rgba(255,255,255,1);
+    vertical-align: middle;
+}
+
+.comment-list {
+    width: 100%;
+}
+
+.comment-item {
+    width: 986px;
+    margin: 0 auto;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(51,51,51,0.2);
+}
+
+.comment-item img {
+    display: inline-block;
+    width:44px;
+    height:44px;
+    background:rgba(246,55,86,1);
+    border-radius:50%;
+    vertical-align: middle;
+}
+
+.comment-item h1 {
+    display: inline-block;
+    margin-left: 22px;
+    font-size:20px;
+    color:rgba(51,51,51,1);
+}
+
+.comment-item span {
+    display: inline-block;
+    margin-left: 65px;
+    font-size:20px;
+    color:rgba(167,167,167,1);
+}
+
+.comment-item div {
+    float: right;
+}
+
+.comment-item button {
+    margin-left: 20px;
+    padding: 16px 25px 16px 54px;
+    border:2px solid rgba(176,176,176,0.35);
+    border-radius:23px;
+    background-size: 18px 18px;
+    font-size:20px;
+    color:rgba(146,146,146,1);
+}
+
+.thumb-down {
+    background: url(../images/thumb-down.png) no-repeat 25px center;
+}
+
+.thumb-up {
+    background: url(../images/thumb-up.png) no-repeat 25px center;
+}
+
+.thumbed-down {
+    background: url(../images/thumbed-down.png) no-repeat 25px center;
+}
+
+.thumbed-up {
+    background: url(../images/thumbed-up.png) no-repeat 25px center;
+}
+
+.comment-item p {
+    margin: 35px 0 0 70px;
+    font-size:20px;
+    color:rgba(51,51,51,1);
+}
+
+.sidebar {
+    position: fixed;
+    right: 280px;
+    top: 400px;
+    display: inline-block;
+    float: right;
+}
+
+.sidebar div {
+    margin: 10px auto;
+    width:77px;
+    box-shadow:0px 2px 5px 1px rgba(60,60,60,0.2);
+    text-align: center;
+}
+
+.sidebar button {
+    display: inline-block;
+    margin: 18px auto;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+.not-thumb-up {
+    background: url(../images/not-thumb-up.png) center center no-repeat;
+}
+
+.al-thumb-up {
+    background: url(../images/thumb-up.png) center center no-repeat;
+}
+
+#goto-comment {
+    width: 33px;
+    height: 32px;
+    background: url(../images/comment.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 1900px)  {
+    .content {
+        width: 740px;
+    }
+
+    .content-article {
+        width: 670px;
+    }
+
+    .content-article h1 {
+        margin: 40px 0 27px 0;
+        font-size:26px;
+    }
+
+    .content-article img {
+        width:21px;
+        height:21px;
+    }
+
+    .content-article h5 {
+        margin: 0 45px 0 15px;
+        font-size:14px;
+    }
+
+    .content-article span {
+        font-size:14px;
+    }
+
+    .content-article p {
+        margin: 27px 0 28px 0;
+        font-size:14px;
+    }
+
+    .content-text img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .content-text p {
+        font-size:16px;
+        color:rgba(51,51,51,1);
+        line-height:26px;
+        margin-top: 35px;
+    }
+
+    .content-comment {
+        margin: 42px 0 48px 0;
+    }
+
+    .comment-title {
+        padding-top: 15px;
+    }
+
+    .comment-title span {
+        font-size:20px;
+        background-size: 16px 22px;
+        padding-left: 33px;
+    }
+
+    #commentInput {
+        width:593px;
+        height:80px;
+        margin-left: 24px;
+    }
+
+    #commentBtn {
+        margin-left: 9px;
+        width:87px;
+        height:84px;
+        font-size:16px;
+    }
+
+    .comment-item {
+        width: 690px;
+    }
+
+    .comment-item img {
+        width:35px;
+        height:35px;
+    }
+
+    .comment-item h1 {
+        margin-left: 14px;
+        font-size:15px;
+    }
+
+    .comment-item span {
+        margin-left: 46px;
+        font-size:15px;
+    }
+
+    .comment-item button {
+        margin-left: 14px;
+        padding: 8px 18px 8px 38px;
+        font-size:14px;
+    }
+
+    .thumb-down {
+        background: url(../images/thumb-down.png) no-repeat 17px center;
+    }
+
+    .thumb-up {
+        background: url(../images/thumb-up.png) no-repeat 17px center;
+    }
+
+    .thumbed-down {
+        background: url(../images/thumbed-down.png) no-repeat 17px center;
+    }
+
+    .thumbed-up {
+        background: url(../images/thumbed-up.png) no-repeat 17px center;
+    }
+
+    .comment-item p {
+        margin: 25px 0 0 50px;
+        font-size:15px;
+    }
+
+    .sidebar {
+        right: 189px;
+    }
+
+    .sidebar div {
+        width:54px;
+    }
+
+    .sidebar button {
+        margin: 8px auto;
+        width: 30px;
+        height: 30px;
+    }
+
+    #goto-comment {
+        width: 22px;
+        height: 21px;
+    }
+
+}

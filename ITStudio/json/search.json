@@ -1,0 +1,46 @@
+{
+  "msg":"success",
+  "placeholder": "美国禁令与华为极限生存简析",
+  "hotwords": [
+    {
+      "hotText": "热搜词",
+      "hotLevel": 1
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 2
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 3
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 4
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 1
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 2
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 3
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 4
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 1
+    },
+    {
+      "hotText": "热搜词",
+      "hotLevel": 3
+    }
+  ]
+}

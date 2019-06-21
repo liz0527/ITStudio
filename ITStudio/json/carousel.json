@@ -1,0 +1,25 @@
+{
+  "msg": "success",
+  "carousel": [
+    {
+      "articleId": 1,
+      "articleTitle": "扎克伯格如何挺过地狱般的15个月",
+      "articleImg": "pic1.jpg"
+    },
+    {
+      "articleId": 2,
+      "articleTitle": "扎克伯格如何挺过地狱般的15个月",
+      "articleImg": "pic2.jpg"
+    },
+    {
+      "articleId": 3,
+      "articleTitle": "扎克伯格如何挺过地狱般的15个月",
+      "articleImg": "pic3.jpg"
+    },
+    {
+      "articleId": 4,
+      "articleTitle": "扎克伯格如何挺过地狱般的15个月",
+      "articleImg": "pic4.jpg"
+    }
+  ]
+}

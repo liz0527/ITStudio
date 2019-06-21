@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱特信息网-404</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<style>
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        background: rgb(248,245,236);
+        text-align: center;
+    }
+.container .main {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: +1;
+    background: url(images/404.png) center center no-repeat;
+    background-size: contain;
+}
+    #returnLast {
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 450px;
+        width:787px;
+        height:79px;
+        border:4px solid rgba(246,55,86,1);
+        box-shadow:0px 2px 5px 1px rgba(60,60,60,0.2);
+        border-radius:40px;
+        font-size:28px;
+        font-weight:bold;
+        color:rgba(246,55,86,1);
+
+    }
+
+    @media screen and (max-width: 1900px) {
+        #returnLast {
+            margin-top: 500px;
+            width:550px;
+            height:55px;
+            font-size:20px;
+        }
+    }
+</style>
+<body>
+<div class="header">
+    <div class="main">
+        <a href="index.html">
+            <img src="images/logo.png">
+        </a>
+        <ul>
+            <li><a href="list.html?sort=电商消费">资讯</a></li>
+            <li><a href="list.html?sort=短趣">短趣</a></li>
+            <li><a href="list.html?sort=传言">传言</a></li>
+        </ul>
+        <div class="header-button">
+            <button id="greenBtn"></button>
+            <button id="searchBtn"></button>
+            <button id="logBtn"></button>
+            <button id="submitBtn">投稿</button>
+        </div>
+    </div>
+    <div class="second-nav">
+        <div class="main">
+            <ul>
+                <li><a href="list.html?sort=电商消费">电商消费</a></li>
+                <li><a href="list.html?sort=娱乐淘金">娱乐淘金</a></li>
+                <li><a href="list.html?sort=人工智能">人工智能</a></li>
+                <li><a href="list.html?sort=车与出行">车与出行</a></li>
+                <li><a href="list.html?sort=智能终端">智能终端</a></li>
+                <li><a href="list.html?sort=医疗健康">医疗健康</a></li>
+                <li><a href="list.html?sort=金融地产">金融地产</a></li>
+                <li><a href="list.html?sort=企业服务">企业服务</a></li>
+                <li><a href="list.html?sort=创业维艰">创业维艰</a></li>
+                <li><a href="list.html?sort=社交通讯">社交通讯</a></li>
+                <li><a href="list.html?sort=全球热点">全球热点</a></li>
+                <li><a href="list.html?sort=生活腔调">生活腔调</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="search-wrap">
+    <div class="main">
+        <button id="searchCloseBtn"></button>
+        <div class="input-wrap">
+            <input type="text" id="searchInput"/>
+            <button id="searchInputBtn">搜索</button>
+        </div>
+        <div class="hotwords-wrap">
+            <ul>
+                <!--                <li class="hotword1">热搜</li>-->
+                <!--                <li class="hotword1">热搜</li>-->
+                <!--                <li class="hotword4">热搜</li>-->
+                <!--                <li class="hotword2">热搜</li>-->
+                <!--                <li class="hotword3">热搜</li>-->
+                <!--                <li class="hotword3">热搜</li>-->
+                <!--                <li class="hotword1">热搜</li>-->
+                <!--                <li class="hotword4">热搜</li>-->
+                <!--                <li class="hotword3">热搜</li>-->
+                <!--                <li class="hotword1">热搜</li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="login-wrap">
+    <div class="login-left">
+        <img src="images/logo.png">
+        <div class="fill-blank">
+            <input type="text" id="usernameInput" placeholder="手机号/邮箱/虎嗅账号"/>
+            <input type="password" id="userpswInput" placeholder="密码" />
+            <input type="text" id="captchaInput" placeholder="验证码"/>
+            <div class="captcha-wrap" id="v_container"></div>
+        </div>
+        <div class="login-choices">
+            <input type="checkbox" ><span>记住密码</span>
+            <a>忘记密码？</a>
+        </div>
+        <button id="loginBtn">登录</button>
+        <button id="registerBtn">注册</button>
+    </div>
+    <div class="login-right">
+        <button id="loginCloseBtn"></button>
+        <div>
+            <p>第三方快速登录</p>
+            <img src="images/login-qq.png">
+            <img src="images/login-wechat.png">
+            <img src="images/login-msg.png">
+            <img src="images/login-weibo.png">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="main">
+        <button id="returnLast">返回上一页</button>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+    $("#returnLast").click(function(){
+        history.back(-1);
+    })
+</script>
+</body>
+</html>

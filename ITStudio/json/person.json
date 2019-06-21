@@ -1,0 +1,152 @@
+{
+  "msg": "success",
+  "userInfo": {
+    "userName": "刘凡莉",
+    "userIcon": "icon-ep.png",
+    "userDescrip": "滴答滴答滴答滴阿呆嗲嗲实打实",
+    "userCompany": "啊啊啊",
+    "userCareer": "学生",
+    "userWechat": "liufanli",
+    "userWeibo": "@刘凡莉",
+    "userMail": "472750237@qq.com",
+    "userPhone": "17863957587"
+  },
+  "readStatistics": [
+    {
+      "year":2019,
+      "month":2,
+      "day":27,
+      "reading": 100,
+      "readLevel": 1
+    },
+    {
+      "year":2019,
+      "month":2,
+      "day":28,
+      "reading": 80,
+      "readLevel": 2
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":1,
+      "reading": 50,
+      "readLevel": 3
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":2,
+      "reading": 20,
+      "readLevel": 4
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":3,
+      "reading": 100,
+      "readLevel": 1
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":4,
+      "reading": 80,
+      "readLevel": 2
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":5,
+      "reading": 50,
+      "readLevel": 3
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":6,
+      "reading": 20,
+      "readLevel": 4
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":7,
+      "reading": 100,
+      "readLevel": 1
+    },
+    {
+      "year":2019,
+      "month":3,
+      "day":27,
+      "reading": 80,
+      "readLevel": 2
+    },
+    {
+      "year":2019,
+      "month":5,
+      "day":11,
+      "reading": 50,
+      "readLevel": 3
+    },
+    {
+      "year":2019,
+      "month":5,
+      "day":12,
+      "reading": 20,
+      "readLevel": 4
+    },
+    {
+      "year":2019,
+      "month":5,
+      "day":18,
+      "reading": 100,
+      "readLevel": 1
+    },
+    {
+      "year":2019,
+      "month":5,
+      "day":19,
+      "reading": 80,
+      "readLevel": 2
+    }
+
+
+
+  ],
+  "collection": [
+    {
+      "articleId": 13,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 14,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    }
+  ]
+}

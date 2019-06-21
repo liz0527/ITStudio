@@ -1,0 +1,130 @@
+{
+  "msg": "success",
+  "pageCount": 5,
+  "pageNum": 1,
+  "article": [
+    {
+      "articleId": 13,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 14,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    },
+    {
+      "articleId": 15,
+      "articleImg": "pic2.jpg",
+      "articleTitle": "权游你好，权游再见",
+      "articleHot": 1,
+      "articleLater": "not-later-watch",
+      "articleSort": "雪花一代",
+      "articleThrough": "1792",
+      "articleTime": "10小时前",
+      "articleReading": "HBO在营销方面可谓不遗余力，线上、线下、多维度运营，将大家对最后一季的期待推向顶峰。"
+    }
+  ],
+  "short": [
+    {
+      "shortId": 1,
+      "shortTitle": "全球对巴黎圣母院捐款已近10亿美元，官方：还不够。",
+      "shortAuthor": "地球外参",
+      "shortAuthorImage": "icon-ep.png",
+      "shortTime": "1小时前",
+      "shortReading": "巴黎圣母院被大火吞噬已过去数日，来自全球对巴黎圣母院大教堂重建工作的筹款金额已接近10亿美元大关院大教堂重建工作的筹款金额已"
+    },
+    {
+      "shortId": 2,
+      "shortTitle": "全球对巴黎圣母院捐款已近10亿美元，官方：还不够。",
+      "shortAuthor": "地球外参",
+      "shortAuthorImage": "icon-ep.png",
+      "shortTime": "1小时前",
+      "shortReading": "巴黎圣母院被大火吞噬已过去数日，来自全球对巴黎圣母院大教堂重建工作的筹款金额已接近10亿美元大关院大教堂重建工作的筹款金额已"
+    },
+    {
+      "shortId": 3,
+      "shortTitle": "全球对巴黎圣母院捐款已近10亿美元，官方：还不够。",
+      "shortAuthor": "地球外参",
+      "shortAuthorImage": "icon-ep.png",
+      "shortTime": "1小时前",
+      "shortReading": "巴黎圣母院被大火吞噬已过去数日，来自全球对巴黎圣母院大教堂重建工作的筹款金额已接近10亿美元大关院大教堂重建工作的筹款金额已"
+    }
+  ],
+  "gossip": [
+    {
+      "gossipId": 4,
+      "gossipImg": "pic1.jpg",
+      "gossipTitle": "腾讯投资今日头条",
+      "gossipStatus": "not-refuted"
+    },
+    {
+      "gossipId": 5,
+      "gossipImg": "pic1.jpg",
+      "gossipTitle": "腾讯投资今日头条",
+      "gossipStatus": "refuted"
+    },
+    {
+      "gossipId": 6,
+      "gossipImg": "pic1.jpg",
+      "gossipTitle": "腾讯投资今日头条",
+      "gossipStatus": "confirmed"
+    }
+  ]
+}
